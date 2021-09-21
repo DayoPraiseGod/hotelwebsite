@@ -1,0 +1,248 @@
+
+
+/* DOCUMENT STYLING */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: Muli, sans-serif;
+    background-color: #ffddff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Space Mono", monospace;
+}
+
+
+
+
+/* NAVIGATION STYLI ING  */
+
+.navbar {
+    /* position: fixed;     */
+    background-color:  rgba(225, 225, 225, 0.2);
+
+}
+
+.nav-link {
+    margin: 0 15px;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid darkmagenta;
+}
+
+.navbar-brand {
+    font-size: 44px;
+    font-weight: 700;
+    color: #aaa;
+}
+
+.navbar-brand span {
+    color: darkmagenta;
+    font-family: cursive;
+    font-size: 46px;
+}
+
+
+
+/* ABOUT SECTION STYLING */
+
+
+.home {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(200, 20, 200, 0.2), rgba(200, 20, 200, 0.2)), url(images/bg_book_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* ABOUT SECTION STYLING */
+
+.about {
+    margin-bottom: 10px;
+}
+
+#about-image {
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.about-content p {
+    font-size: large;
+}
+
+.about-content {
+    font-size: 28px;
+}
+
+#about-us {
+    border: 2px solid rgba(112, 7, 112, 0.8);
+}
+
+.about div a  {
+    margin-top: 7px;
+    background: none;
+    border: 1px solid rgba(112, 7, 112, 0.8);
+    color: rgba(112, 7, 112, 0.8);
+    transition: .3s;
+}
+
+.about div a:hover {
+    color: #eee;
+    background-color: rgba(112, 7, 112, 0.8);
+}
+
+
+
+
+/* SERVICES SECTION STYLING */
+
+.services {
+    padding:30px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: #fff;
+}
+
+#our-services {
+    border: 2px solid rgba(112, 7, 112, 0.8);
+    text-align: center;
+    font-weight: 600;
+}
+
+.services .card {
+    border-radius: 10px;
+    background-color: #eee;
+}
+
+.services .card a {
+    margin-top: 7px;
+    background: none;
+    border: 1px solid rgba(112, 7, 112, 0.8);
+    color: rgba(112, 7, 112, 0.8);
+    transition: .3s;
+}
+
+.services .card a:hover {
+    color: #eee;
+    background-color: rgba(112, 7, 112, 0.8);
+}
+
+
+
+
+
+/* BOOK SECTION STYLING */
+
+.book {
+    background-image: linear-gradient(rgba(200, 20, 200, 0.6), rgba(200, 20, 200, 0.6)), url(images/bg_book_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 85%;
+    background-color: #eee;
+}
+
+.book .container {
+    width: 100%;
+}
+
+.book h1 {
+    font-weight: 600;
+}
+
+.book form {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.book .form-control {
+    background-color: #bbb;
+    color: black;
+    font-size: 18px;
+}
+
+.book button {
+    background-color: rgba(150, 20, 150, 1.0);
+}
+
+.book button:hover {
+    background: none;
+}
+
+
+
+
+
+/* CONTACT SECTION STYLING */
+
+.contact {
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    background-color: #ccaacc;
+    color: #bbb;
+    padding: 50px;
+    margin-bottom: 80px;
+}
+
+.contact h1 {
+    color: #111;
+    text-align: center;
+    border: 2px solid rgba(112, 7, 112, 0.8);
+    font-weight: 600;
+
+}
+
+.contact label {
+    color: #111;
+    font-weight: 600;
+}
+
+.contact .form-control {
+    background-color: #ddd;
+    color: #111;
+    font-size: 18px;
+    border: 1px solid #606060;
+}
+
+.contact .row button {
+    margin-top: 7px;
+    background: none;
+    border: 1px solid rgba(112, 7, 112, 0.8);
+    color: rgba(112, 7, 112, 0.8);
+    transition: .3s;
+}
+
+.contact .row button:hover {
+    color: #eee;
+    background-color: rgba(112, 7, 112, 0.8);
+}
+
+
+/* FOOTER STYLING */
+
+footer {
+    width: 100%;
+    height: 5vh;
+    background-color: #303030;
+    color: #ddd;
+    text-align: center;
+    padding-top: 3px;
+    letter-spacing: 1px;
+    margin-bottom: 1px;
+}

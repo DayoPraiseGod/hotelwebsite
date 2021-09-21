@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Hote || Project</title>
+</head>
+<body>
+
+
+    
+    <div class="container">
+    <section class="book" id="book">
+    
+     <!-- navigation -->
+     <nav class="navbar navbar-expand-md navbar-dark bg-transparent">
+        <a class="navbar-brand ml-2" href="#"><span>D</span>istant<span>H</span>ome</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="book.html">Book</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="index.html#contact">Contact</a>
+                </li>
+        </div>
+    </nav>
+
+
+
+     <!-- BOOK SECTION -->
+
+            <div class="container padding">
+
+                <div class="row">
+                    <div class="col-md-3">
+
+                    </div>
+                </div>
+
+
+            <h1>For booking</h1>
+            <form action="#" style="border: 3px solid grey; padding: 20px;" autocomplete="on">
+                <div class="form-group">
+                  <label for="fullname">FullName</label>
+                  <input type="text" name="fullname" id="fullname" class="form-control" placeholder="Enter your fullname">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email">
+                  </div>
+                <div class="form-group">
+                  <label for="book-item">Select services</label>
+                  <select class="form-control" name="book-item" id="book-item">
+                    <option>Room</option>
+                    <option>Hall</option>
+                    <option>Garden</option>
+                  </select>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label for="from">CheckIn</label>
+                            <input type="date" name="from" id="from" class="form-control" placeholder="Enter your fullname">
+                          </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form-group">
+                            <label for="till">CheckOut</label>
+                            <input type="date" name="till" id="till" class="form-control" placeholder="Enter your fullname">
+                          </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-dark btn-lg my-2 my-4" style="width: 100%;">Book Now</button>
+            </form>
+            </div>
+        </section>
+     </div>
+    
+
+
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
