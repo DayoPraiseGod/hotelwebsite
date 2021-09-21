@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500;600&family=Gluten:wght@600;700&display=swap');
 
 /* DOCUMENT STYLING */
 
@@ -10,7 +10,7 @@
 }
 
 body{
-    font-family: Muli, sans-serif;
+    font-family: 'Dosis', sans-serif;
     background-color: #ffddff;
 }
 
@@ -47,8 +47,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-brand span {
     color: darkmagenta;
-    font-family: cursive;
-    font-size: 46px;
+    font-family: 'Gluten', cursive;
+    font-weight: 600;
+    font-size: 56px;
 }
 
 
