@@ -9,6 +9,7 @@
     text-decoration: none;
 }
 
+
 body{
     font-family: 'Dosis', sans-serif;
     background-color: #ffddff;
@@ -54,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-/* ABOUT SECTION STYLING */
+/* HOME SECTION STYLING */
 
 
 .home {
@@ -71,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 /* ABOUT SECTION STYLING */
 
 .about {
-    margin-bottom: 10px;
+    margin: 15px 0;
 }
 
 #about-image {
@@ -218,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #ddd;
     color: #111;
     font-size: 18px;
-    border: 1px solid #606060;
+    border: 1px solid rgba(112, 7, 112, 0.8);
 }
 
 .contact .row button {
@@ -234,16 +235,52 @@ h1, h2, h3, h4, h5, h6 {
     background-color: rgba(112, 7, 112, 0.8);
 }
 
+.contact i {
+    font-size: 40px;
+    color: rgba(112, 7, 112, 0.8);
+    margin: 60px 20px 30px 10px;
+    border: 2px solid rgba(112, 7, 112, 0.8);
+    padding: 15px 90px;
+    cursor: pointer;
+}
+
+.contact i:hover {
+    background-color: rgba(112, 7, 112, 0.8);
+    color: #eee;
+}
+
 
 /* FOOTER STYLING */
 
 footer {
     width: 100%;
-    height: 5vh;
-    background-color: #303030;
-    color: #ddd;
+    height: 70%;
+    background-color: #802380;
+    color: rgba(236, 171, 236, 0.8);
     text-align: center;
-    padding-top: 3px;
     letter-spacing: 1px;
+    padding-top: 20px;
     margin-bottom: 1px;
+    margin-top: 70px;
+}
+
+footer li {
+    margin: 30px 0;
+    list-style-type: none;
+}
+
+footer a {
+    color: rgba(236, 171, 236, 0.8);
+    font-size: 20px;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #eee;
+}
+
+footer .copy {
+    background-color: #202020;
+    height: 10vh;
+    padding-top: 15px;
 }
